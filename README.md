@@ -58,6 +58,6 @@ allprojects {
 	}
 }
 dependencies {
-	implementation 'com.github.y9neon:simple-ann:$version' // use version from releases or use '-SNAPSHOT'
+	implementation 'com.github.korpusovmax:simple-ann:$version' // use version from releases or use '-SNAPSHOT'
 }
 ```
