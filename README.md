@@ -1,5 +1,5 @@
 # SANN
-Simple Artificial Neural Network java library
+Simple Artificial Neural Network java library  
 WIP
 
 ## Creating neural network
