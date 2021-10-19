@@ -1,4 +1,4 @@
-package sann;
+package me.maxcronus.sann;
 
 public class Layer {
 	//layer type (default/recurrent)
