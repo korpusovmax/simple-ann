@@ -1,5 +1,6 @@
 plugins {
     `java-library`
+    id("maven")
 }
 
 group = AppInfo.PACKAGE
