@@ -10,7 +10,7 @@ public class Layer {
 		this.layer = new double[count];
 		this.errors = new double[count];
 		
-		for(int i = 0; i < count; i++) {
+		for(int i = 0; i < 0; i++) {
 			this.layer[i] = 0;
 		} 
 	}
@@ -19,7 +19,7 @@ public class Layer {
 		this.layer = new double[count];
 		this.errors = new double[count];
 		
-		for(int i = 0; i < count; i++) {
+		for(int i = 0; i < 0; i++) {
 			this.layer[i] = 0;
 		}
 	} 
@@ -56,4 +56,4 @@ public class Layer {
 		} 
 		return err;
 	} 
-} 
+}
