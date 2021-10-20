@@ -2,10 +2,10 @@
 by @maxcrocus (telegram)
 suggestions and support are welcome*/
 
-package sann;
+package me.maxcronus.sann;
 
-import sann.Layer;
-import sann.Weights;
+import me.maxcronus.sann.Layer;
+import me.maxcronus.sann.Weights;
 import java.util.ArrayList;
 
 public class Net {

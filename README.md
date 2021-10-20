@@ -2,8 +2,8 @@
 Simple Artificial Neural Network java library  
 WIP
 
-## Creating neural network
-#### variant 1
+### Creating neural network
+#### Variant 1
 ```java
 //create new net (input, hidden, default len, output)
 Net net = new Net(3, 2, 2, 1);
@@ -12,7 +12,7 @@ Net net = new Net(3, 2, 2, 1);
 net.setup();
 ```
 
-#### variant 2 (same structure)
+#### Variant 2 (same structure)
 ```java
 //create net
 Net net = new Net();
@@ -25,7 +25,7 @@ net.addLayers(1, 1);
 net.setup();
 ```
 
-## Training
+### Training
 ```java
 double[][] input = {{1.0d, 0.0d, 1.0d}, {0.0d, 1.0d, 0.0d}, {0.0d, 0.0d, 1.0d}, {1.0d, 0.0d, 1.0d}};
 
@@ -36,7 +36,7 @@ net.setTrainingData(input, output);
 net.train(0.2, 10000);
 ```
 
-## Listeners
+### Listeners
 ```java
 net.setOnTrainingListener(new Net.OnTrainingListener() {
 	@Override
@@ -48,4 +48,16 @@ net.setOnTrainingListener(new Net.OnTrainingListener() {
 		//doingSomething();
 	}
 });
+```
+## Implementation
+```groovy
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+dependencies {
+	implementation 'com.github.korpusovmax:simple-ann:$version' // use version from releases or use '-SNAPSHOT'
+}
 ```

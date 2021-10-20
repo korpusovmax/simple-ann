@@ -1,6 +1,5 @@
-package sann;
+package me.maxcronus.sann;
 
-import sann.Layer;
 import java.util.Random;
 
 public class Weights {
