@@ -1,5 +1,5 @@
 # SANN
-WIP (in future I will add rnn, cnn, lstm, gru and examples)
+WIP (in future I will add rnn, cnn, lstm, gru and examples)  
 Simple Artificial Neural Network java library
 
 ### Creating neural network
