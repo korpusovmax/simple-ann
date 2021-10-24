@@ -5,7 +5,7 @@ Simple Artificial Neural Network java library
 ### Creating neural network
 #### Variant 1
 ```java
-//create new net (input, hidden, default len, output)
+//create new net (input len, hidden layers, hidden len, output len)
 Net net = new Net(3, 2, 2, 1);
 
 //initialize weights and fill weights randomly
@@ -17,9 +17,9 @@ net.setup();
 //create net
 Net net = new Net();
 //add layers (layers, neurons in layers)
-net.addLayers(1, 3);
-net.addLayers(2, 2);
-net.addLayers(1, 1);
+net.addLayers(1, 3);//input
+net.addLayers(2, 2);//hidden
+net.addLayers(1, 1);//output
 
 //initialize weights and fill weights randomly
 net.setup();
