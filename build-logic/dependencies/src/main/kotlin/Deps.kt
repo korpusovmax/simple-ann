@@ -32,6 +32,7 @@ object Deps {
     private const val shadowVer = "7.0.0"
 
     object Libs {
+        const val JUnit = "org.junit.jupiter:junit-jupiter:5.7.2"
         object KVision {
             const val Core = "io.kvision:kvision:$kvisionVersion"
 
