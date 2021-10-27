@@ -9,3 +9,11 @@ version = AppInfo.VERSION
 repositories {
     mavenCentral()
 }
+
+dependencies {
+    testImplementation(Deps.Libs.JUnit)
+}
+
+tasks.withType<Test> {
+    useJUnitPlatform()
+}
